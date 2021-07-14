@@ -1,0 +1,32 @@
+.restaurant {
+  background-color: #fff;
+}
+
+.restaurant-content {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin-bottom: 5rem;
+}
+
+.restaurant-description {
+  font-size: 1.9rem;
+  line-height: 3rem;
+}
+
+.call1 {
+  margin-right: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.call2 img {
+  width: 35rem;
+  border-radius: 0.5rem;
+}

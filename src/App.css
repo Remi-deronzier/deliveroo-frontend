@@ -1,1 +1,106 @@
-/* Other rules */
+html {
+  font-size: 62.5%; /* Ré-équilibrage du `rem` face au `px` pour des calculs simples */
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f3f5f5;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  color: #2e3333;
+}
+
+p {
+  color: #868a8a;
+}
+
+.categories {
+  width: 70%;
+}
+
+.category {
+  margin-top: 3rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.category-content {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.meal {
+  width: calc(50% - 1rem);
+  height: 17rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  margin-bottom: 2.5rem;
+  transition: all 0.2s;
+}
+
+.meal:hover {
+  cursor: pointer;
+  box-shadow: 0.2rem 0.2rem 2rem 0.4rem #ccc;
+}
+
+.meal-information {
+  width: calc(63% - 1rem);
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+  line-height: 2.5rem;
+}
+
+.meal-description {
+  line-height: 2rem;
+  height: 4rem;
+  overflow: hidden;
+  font-size: 1.4rem;
+  text-overflow: ellipsis;
+}
+
+.meal-price-popular {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+}
+
+.meal-picture {
+  width: calc(37% - 1rem);
+}
+
+.meal-picture img {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.popular {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #ff8000;
+}
+
+.icon-star {
+  color: #ff8000;
+  margin: 0 1rem 0 2rem;
+}

@@ -1,0 +1,15 @@
+header {
+  height: 60px;
+  border-bottom: 1px solid #ebe8e8;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+header img {
+  height: 5rem;
+}
+
+header img:hover {
+  cursor: pointer;
+}
