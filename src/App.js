@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./Components/Header";
 import Restaurant from "./Components/Restaurant";
 import Categories from "./Components/Categories";
+import Loader from "./Components/Loader";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -29,7 +30,7 @@ const App = () => {
   }, []);
 
   return isLoading ? (
-    <span>En cours de chargement... </span>
+    <Loader />
   ) : (
     <>
       <Header />

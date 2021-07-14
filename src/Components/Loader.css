@@ -1,0 +1,45 @@
+.container-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: #00ccbc;
+}
+
+.loader {
+  width: 40rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 1rem;
+  animation: zoom 1s backwards infinite alternate ease-in-out;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.circle-1 {
+  animation-delay: 200ms;
+}
+.circle-2 {
+  animation-delay: 500ms;
+}
+.circle-3 {
+  animation-delay: 800ms;
+}
