@@ -60,3 +60,9 @@ h3 {
   color: #ff8000;
   margin: 0 1rem 0 2rem;
 }
+
+@media (max-width: 1000px) {
+  .meal {
+    width: 100%;
+  }
+}

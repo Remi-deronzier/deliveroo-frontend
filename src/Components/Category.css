@@ -13,3 +13,9 @@ h2 {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+@media (max-width: 1000px) {
+  .category-content {
+    flex-direction: column;
+  }
+}

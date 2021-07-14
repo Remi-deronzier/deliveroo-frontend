@@ -30,3 +30,32 @@ h1 {
   width: 35rem;
   border-radius: 0.5rem;
 }
+
+@media (max-width: 1000px) {
+  .call2 img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .call2 img {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .restaurant-content {
+    flex-direction: column;
+  }
+  h1 {
+    margin-bottom: 3rem;
+  }
+  .call1 {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+  .call2 img {
+    width: 100%;
+  }
+}

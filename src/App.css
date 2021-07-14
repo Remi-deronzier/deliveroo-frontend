@@ -21,3 +21,19 @@ h3 {
 p {
   color: #868a8a;
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 1200px) {
+  .container {
+    width: 100%;
+    padding: 0 2rem;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
