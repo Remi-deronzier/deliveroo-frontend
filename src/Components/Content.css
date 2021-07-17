@@ -1,0 +1,24 @@
+.main-content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.categories {
+  width: calc(70% - 1.5rem);
+}
+
+@media (max-width: 1000px) {
+  .categories {
+    width: calc(63% - 1rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .categories {
+    width: 100%;
+  }
+  .main-content {
+    display: block;
+  }
+}

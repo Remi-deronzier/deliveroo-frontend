@@ -1,0 +1,36 @@
+.pop-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pop-up {
+  width: 60%;
+  background-color: #00cdbd;
+  height: 5rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 1rem;
+  z-index: 99;
+  box-shadow: 0.2rem 0.2rem 2rem 0.4rem #ccc;
+  font-size: 1.8rem;
+  color: white;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.pop-up p {
+  color: white;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+
+@media (max-width: 768px) {
+  .pop-up {
+    width: 90%;
+    font-size: 1.6rem;
+  }
+}

@@ -1,9 +1,0 @@
-.categories {
-  width: 70%;
-}
-
-@media (max-width: 576px) {
-  .categories {
-    width: 100%;
-  }
-}

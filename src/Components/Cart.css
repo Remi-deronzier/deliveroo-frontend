@@ -1,0 +1,144 @@
+.cart {
+  margin-top: 3rem;
+  width: calc(30% - 1.5rem);
+  background-color: #fff;
+  height: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 2rem 0.4rem #ccc;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 8rem;
+}
+
+.validate-cart {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 5rem;
+  background-color: #00cdbd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.validate-cart:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.validate-cart p {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.cart-content {
+  margin-top: 2.5rem;
+  font-size: 1.6rem;
+  color: #2e3333;
+}
+
+.cart-choice {
+  border-bottom: 0.1rem solid #d1d7d7;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.cart-itemTitle {
+  margin-left: 1rem;
+}
+
+.cart-counters {
+  color: #808484;
+  margin: 0 0.5rem;
+}
+
+.cart-subtotal-deliveryFees {
+  border-bottom: 0.1rem solid #d1d7d7;
+  padding: 2.5rem 0;
+}
+
+.cart-subtotal {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-deliveryFees {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5rem 0;
+}
+
+.cart-total > div {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.plus-minus {
+  color: #00cdbd;
+}
+
+.plus-minus:hover {
+  cursor: pointer;
+}
+
+.cart-choice-div {
+  display: flex;
+}
+
+.cart-btn {
+  white-space: nowrap;
+}
+
+.cart-item-price {
+  margin-left: 1rem;
+}
+
+.cart-item-price,
+.cart-price-total,
+.cart-price-deliveryFees,
+.cart-price-subtotal {
+  white-space: nowrap;
+}
+
+@media (max-width: 1000px) {
+  .cart {
+    width: calc(37% - 1rem);
+  }
+}
+
+@media (max-width: 900px) {
+  .cart-content,
+  .validate-cart p {
+    font-size: 1.4rem;
+  }
+  .cart-total > div {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart {
+    width: 100%;
+  }
+  .cart-content,
+  .validate-cart p {
+    font-size: 1.6rem;
+  }
+  .cart-total > div {
+    font-size: 1.9rem;
+  }
+}

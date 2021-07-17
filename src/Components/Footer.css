@@ -1,0 +1,32 @@
+footer {
+  width: 100%;
+  text-align: center;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dbdada;
+}
+footer p {
+  color: #414141;
+}
+
+.p-footer {
+  font-size: 2rem;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .p-footer {
+    font-size: 1.6rem;
+  }
+}

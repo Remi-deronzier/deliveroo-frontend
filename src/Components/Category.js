@@ -1,7 +1,7 @@
 import "./Category.css";
 import Meal from "./Meal";
 
-const Category = ({ category, index }) => {
+const Category = ({ category, index, handleAddToCart }) => {
   return (
     <>
       {category.meals.length !== 0 && (
@@ -9,7 +9,13 @@ const Category = ({ category, index }) => {
           <h2>{category.name}</h2>
           <div className="category-content">
             {category.meals.map((meal, index) => {
-              return <Meal meal={meal} index={index} />;
+              return (
+                <Meal
+                  meal={meal}
+                  key={index}
+                  handleAddToCart={handleAddToCart}
+                />
+              );
             })}
           </div>
         </div>
