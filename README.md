@@ -10,6 +10,8 @@
 ## Overview
 This project is a partial replica of [Deliveroo website](https://deliveroo.fr/) when the project was made (2021). No frameworks UI like Bootstrap or Material UI are used.
 
+Backend project is here: 👉 [Backend](https://github.com/Remi-deronzier/deliveroo-api)
+
 ## Installation and usage
 Be sure, you have installed all dependencies and applications to run React Native project on your computer : [Getting Started with React](https://reactjs.org/docs/getting-started.html).
 
